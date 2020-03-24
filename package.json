@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "nodemon": "^1.19.4"
+    "express-ejs-layouts": "^2.5.0",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
