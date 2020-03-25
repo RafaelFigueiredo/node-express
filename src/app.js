@@ -22,7 +22,7 @@ console.log('Static files from', static_path)
 app.use("/assets", express.static(static_path) )
 
 
-// CALL ROUTERS FUNCTION 
+// CALL ROUTERS FUNCTION
 const index = require('./routes/index');
 const APIRoute = require('./routes/APIRoute');
 

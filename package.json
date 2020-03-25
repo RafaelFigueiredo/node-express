@@ -1,5 +1,5 @@
 {
-  "name": "api_fraude",
+  "name": "api-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,16 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
-    "nodemon": "^1.19.4",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./bin/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rafael Figueiredo",
   "license": "ISC"
 }
