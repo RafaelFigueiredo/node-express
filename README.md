@@ -20,7 +20,7 @@ docker build -t <you-user-name>/node-web-app .
 
 than run exposing port 80 to internet
 ```bash
-docker run -p 80:3000<you-user-name>/node-web-app
+docker run -p 80:3000 <you-user-name>/node-web-app
 ```
 optionally you can change internal container port with the environment variable `PORT`
 ```bash
