@@ -1,6 +1,6 @@
 # https://nodejs.org/uk/docs/guides/nodejs-docker-webapp/
 
-FROM node:10
+FROM node:23
 
 # Create app directory
 WORKDIR /usr/src/app
